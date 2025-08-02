@@ -1,0 +1,17 @@
+{
+  "name": "palettemind",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+   "dependencies": {
+    "@huggingface/inference": "^4.6.1",
+    "marked": "^16.1.1"
+  }
+  
+}
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PaletteMind</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="image_prev_ui.png" type="image/svg+xml" />
+  <meta name="description" content="PaletteMind - Your AI-powered color palette generator." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="image_prev_ui.png" alt="Logo" />
+      <div>PaletteMind</div>
+    </div>
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+  </header>
+
+  <main>
+    <div class="title-section">
+      <h1>Semantic Color Palette Generator</h1>
+      <p>Use AI to bridge the gap between language and color theory.</p>
+    </div>
+
+    <div class="input-section">
+      <input id="themeInput" type="text" placeholder="e.g., 1970s sci-fi nostalgia" />
+      <button onclick="generatePalette()">Generate Palette</button>
+    </div>
+
+    <div id="swatchesContainer" class="swatches-container">
+      </div>
+    
+    <div class="output-container">
+        <div id="output">
+            </div>
+    </div>
+    <div class="export-btn-wrapper">
+
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
